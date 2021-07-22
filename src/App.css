@@ -48,7 +48,7 @@ body {
 h1 {
   margin: 32px 0;
   color: #fff;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .complete {
@@ -58,6 +58,12 @@ h1 {
 
 .todo-form {
   margin-bottom: 32px;
+
+}
+@media screen and (max-width: 400px) {
+   .todo-app {
+    width: 98%; /* new responsive using media property The width is 98%, when the viewport is 400px or smaller */
+  }
 }
 
 .todo-input {
